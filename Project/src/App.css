@@ -1,0 +1,55 @@
+
+body{
+    background-color: #f0f2f5;
+}
+
+.facebookImg{
+    width: 200px;
+}
+
+img{
+    border: 0;
+}
+
+.hrs {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 18px 16px;
+    text-align: center;
+}
+
+.profileImg{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.registerBox{
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 6px 16px rgb(0 0 0 / 15%);
+    position: absolute;
+}
+
+.box{
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: .1px .1px 1px 1px #dddfe2;
+}
+
+
+.box:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 5px #dddfe2; /*sombre derecha, sombra abajo, que tan difumidado, cuanto alcance*/
+    transition: .23s;
+}
+
+.box:hover .cerrar{
+    width: 20px;
+    height: 20px;
+    margin-left: -5px;
+    margin-top: -5px;
+    box-shadow: 2px 2px 3px 1px rgb(164, 162, 162);
+}
